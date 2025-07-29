@@ -6,27 +6,25 @@ This Python script simulates the Rossiter-McLaughlin (RM) effect during a planet
 
 📌 Main Features
 
-    Simulates RM effect using the PyAstronomy RmcL model.
+    - Builds a synthetic stellar spectrum with limb darkening and center-to-limb intensity variations.
 
-    Builds a synthetic stellar spectrum with limb darkening and center-to-limb intensity variations.
+    - Models stellar rotation and its effect on the observed line profiles.
 
-    Models stellar rotation and its effect on the observed line profiles.
+    - Applies planet occultation using a 2D stellar disk grid and synthesizes transit spectra.
 
-    Applies planet occultation using a 2D stellar disk grid and synthesizes transit spectra.
+    - Shifts spectra into the planet's rest frame.
 
-    Shifts spectra into the planet rest frame.
+    - Visualizes Na I absorption during transit using:
 
-    Visualizes Na I absorption during transit using:
+        - Normalized 1D spectra
 
-        Normalized 1D spectra
+        - 2D residual maps
 
-        2D residual maps
-
-        Star-planet position maps on the stellar surface
+        - Star-planet position maps on the stellar surface
 
 
 🧰 Dependencies
 
 Make sure to install the following packages:
 
-pip install numpy matplotlib scipy astropy PyAstronomy spectrum-overload
+! pip install numpy matplotlib scipy astropy PyAstronomy spectrum-overload
