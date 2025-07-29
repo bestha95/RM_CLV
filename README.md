@@ -1,4 +1,4 @@
-🪐 Rossiter-McLaughlin Simulation and Sodium Line Analysis
+🪐 Rossiter-McLaughlin Simulation
 
 This Python script simulates the Rossiter-McLaughlin (RM) effect during a planetary transit using a limb-darkened rotating star model. It further generates synthetic spectra, applies Doppler shifts due to stellar rotation and planetary motion, and visualizes the planetary absorption features around the sodium (Na D1 and D2) lines
 
